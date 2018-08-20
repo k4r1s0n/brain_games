@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-"use strict";
+'use strict';
 
-console.log("Welcome to the Brain Games!");
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9iaW4vYnJhaW4tZ2FtZXMuanMiXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFFQUEsUUFBUUMsR0FBUixDQUFZLDZCQUFaIiwiZmlsZSI6ImJyYWluLWdhbWVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmNvbnNvbGUubG9nKFwiV2VsY29tZSB0byB0aGUgQnJhaW4gR2FtZXMhXCIpO1xuIl19
+var _ = require('..');
+
+(0, _.welcomeMessage)();
+(0, _.sayName)();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9iaW4vYnJhaW4tZ2FtZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQTs7QUFFQTtBQUNBIiwiZmlsZSI6ImJyYWluLWdhbWVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmltcG9ydCB7IHdlbGNvbWVNZXNzYWdlLCBzYXlOYW1lIH0gZnJvbSAnLi4nO1xuXG53ZWxjb21lTWVzc2FnZSgpO1xuc2F5TmFtZSgpOyJdfQ==
