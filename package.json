@@ -1,5 +1,5 @@
 {
-  "name": "brain-games-by-k4r1s0n",
+  "name": "k4r1s0n-game",
   "version": "1.0.0",
   "description": "game",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
     "url": "https://github.com/k4r1s0n/project-lvl1-s328/issues"
   },
   "homepage": "https://github.com/k4r1s0n/project-lvl1-s328#readme",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
