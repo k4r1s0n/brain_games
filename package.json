@@ -1,8 +1,8 @@
 {
   "name": "k4r1s0n-game",
   "version": "1.0.0",
-  "description": "game",
-  "main": "dist/index.js",
+  "description": "smart game",
+  "main": "",
   "files": [
     "dist"
   ],
@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/k4r1s0n/project-lvl1-s328.git"
   },
+  "keywords": [
+    "brain-games"
+  ],
   "author": "k4r1s0n",
   "license": "ISC",
   "bugs": {
