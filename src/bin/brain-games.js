@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { welcomeMessage, sayName } from '..';
+import { welcomeMessage, getName } from '..';
 
 welcomeMessage();
-sayName();
+getName();
