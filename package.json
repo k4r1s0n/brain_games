@@ -1,6 +1,6 @@
 {
   "name": "k4r1s0n-game",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "smart game",
   "main": "",
   "files": [
@@ -8,7 +8,8 @@
   ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "scripts": {
     "test": "test",
