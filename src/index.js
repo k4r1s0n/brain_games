@@ -13,19 +13,17 @@ const askQuestion = str => console.log(`Question: ${str}`);
 const getAnswer = () => readlineSync.question('Your answer: ');
 const isWrongAnswer = (answer, correctAnswer) => console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
 export const makeGame = (func, message) => {
-  let counter = 0;
   welcomeMessage();
   console.log(`${message}\n`);
   const name = getName();
-  while (counter !== 3) {
-    const gameInfo = func();
-    askQuestion(gameInfo.question);
+  for (let i = 0; i !== 3; i += 1) {
+    const { question, correctAnswer } = func();
+    askQuestion(question);
     const answer = getAnswer();
-    if (answer === gameInfo.correctAnswer) {
-      counter += 1;
+    if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
-      isWrongAnswer(answer, gameInfo.correctAnswer);
+      isWrongAnswer(answer, correctAnswer);
       console.log(`Let's try again, ${name}!`);
       return;
     }
