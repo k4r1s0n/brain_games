@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { welcomeMessage, getName } from '..';
+import { getName, welcomeMessage } from '../games/first-step-game';
 
 welcomeMessage();
 getName();

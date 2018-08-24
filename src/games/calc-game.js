@@ -1,11 +1,11 @@
-import { makeGame, getNum } from '..';
+import makeGame from '..';
 
 const description = 'What is the result of the expression?';
-
+const getNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 const calc = () => {
-  const firstNum = getNum();
-  const secondNum = getNum();
-  const getNumForExpression = getNum();
+  const firstNum = getNum(1, 100);
+  const secondNum = getNum(1, 100);
+  const getNumForExpression = getNum(1, 100);
   let question = '';
   let correctAnswer = null;
   if (getNumForExpression < 33) {
