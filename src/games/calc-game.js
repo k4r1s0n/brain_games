@@ -9,7 +9,7 @@ const calc = () => {
   let question;
   let correctAnswer;
   switch (numForExpression) {
-    case numForExpression < 33:
+    case numForExpression < 33: //  33 - expression probability
       question = `${firstNum} + ${secondNum}`;
       correctAnswer = firstNum + secondNum;
       break;
