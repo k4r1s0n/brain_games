@@ -5,18 +5,22 @@ const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min
 const calc = () => {
   const firstNum = getRandomNum(1, 100);
   const secondNum = getRandomNum(1, 100);
-  const getNumForExpression = getRandomNum(1, 100);
-  let question = '';
-  let correctAnswer = null;
-  if (getNumForExpression < 33) {
-    question = `${firstNum} + ${secondNum}`;
-    correctAnswer = firstNum + secondNum;
-  } else if (getNumForExpression < 66) {
-    question = `${firstNum} - ${secondNum}`;
-    correctAnswer = firstNum - secondNum;
-  } else {
-    question = `${firstNum} * ${secondNum}`;
-    correctAnswer = firstNum * secondNum;
+  const numForExpression = getRandomNum(1, 100);
+  let question;
+  let correctAnswer;
+  switch (numForExpression) {
+    case numForExpression < 33:
+      question = `${firstNum} + ${secondNum}`;
+      correctAnswer = firstNum + secondNum;
+      break;
+    case numForExpression < 66:
+      question = `${firstNum} - ${secondNum}`;
+      correctAnswer = firstNum - secondNum;
+      break;
+    default:
+      question = `${firstNum} * ${secondNum}`;
+      correctAnswer = firstNum * secondNum;
+      break;
   }
   return { question, correctAnswer: String(correctAnswer) };
 };
