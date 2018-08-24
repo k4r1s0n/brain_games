@@ -10,4 +10,6 @@
 `$ brain-calc`
 [![asciicast](https://asciinema.org/a/YJ7IPKQkZgDaR35xFBp089B9p.png)](https://asciinema.org/a/YJ7IPKQkZgDaR35xFBp089B9p)
 
+`$ brain-gcd`
+[![asciicast](https://asciinema.org/a/8G6WhnYOr5LEdd0Zr2dHpTRVU.png)](https://asciinema.org/a/8G6WhnYOr5LEdd0Zr2dHpTRVU)
   
