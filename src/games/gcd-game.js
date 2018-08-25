@@ -1,7 +1,7 @@
 import makeGame from '..';
+import getRandomNum from '../utils';
 
-const description = 'Find the greatest common divisor of given numbers.';
-const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const gameDescription = 'Find the greatest common divisor of given numbers.';
 const gcd = (firstNum, secondNum) => {
   let num1 = firstNum;
   let num2 = secondNum;
@@ -11,12 +11,12 @@ const gcd = (firstNum, secondNum) => {
   }
   return num1 + num2;
 };
-const makeGcdGame = () => {
+const game = () => {
   const num1 = getRandomNum(1, 100);
   const num2 = getRandomNum(1, 100);
   const question = `${num1} ${num2}`;
   const correctAnswer = String(gcd(num1, num2));
   return { question, correctAnswer };
 };
-const gcdBrainGame = () => makeGame(makeGcdGame, description);
+const gcdBrainGame = () => makeGame(game, gameDescription);
 export default gcdBrainGame;

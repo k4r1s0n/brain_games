@@ -5,13 +5,15 @@ const getName = () => {
   console.log(`Hello, ${userName}! \n`);
   return userName;
 };
-export default (func, message) => {
+
+const numberOfQuestions = 3;
+
+export default (game, gameDescription) => {
   console.log('Welcome to the Brain Games!');
-  console.log(`${message}\n`);
+  console.log(`${gameDescription}\n`);
   const name = getName();
-  const numberOfQuestions = 3;
   for (let i = 0; i < numberOfQuestions; i += 1) {
-    const { question, correctAnswer } = func();
+    const { question, correctAnswer } = game();
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {

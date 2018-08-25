@@ -1,8 +1,8 @@
 import makeGame from '..';
+import getRandomNum from '../utils';
 
-const description = 'What is the result of the expression?';
-const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-const calc = () => {
+const gameDescription = 'What is the result of the expression?';
+const game = () => {
   const firstNum = getRandomNum(1, 100);
   const secondNum = getRandomNum(1, 100);
   const numToPickExpression = getRandomNum(1, 100);
@@ -11,18 +11,18 @@ const calc = () => {
   switch (numToPickExpression) {
     case numToPickExpression < 33: //  33 - expression probability
       question = `${firstNum} + ${secondNum}`;
-      correctAnswer = firstNum + secondNum;
+      correctAnswer = String(firstNum + secondNum);
       break;
     case numToPickExpression < 66:
       question = `${firstNum} - ${secondNum}`;
-      correctAnswer = firstNum - secondNum;
+      correctAnswer = String(firstNum - secondNum);
       break;
     default:
       question = `${firstNum} * ${secondNum}`;
-      correctAnswer = firstNum * secondNum;
+      correctAnswer = String(firstNum * secondNum);
       break;
   }
-  return { question, correctAnswer: String(correctAnswer) };
+  return { question, correctAnswer };
 };
-const calcGame = () => makeGame(calc, description);
+const calcGame = () => makeGame(game, gameDescription);
 export default calcGame;
