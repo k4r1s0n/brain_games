@@ -12,4 +12,7 @@
 
 `$ brain-gcd`
 [![asciicast](https://asciinema.org/a/8G6WhnYOr5LEdd0Zr2dHpTRVU.png)](https://asciinema.org/a/8G6WhnYOr5LEdd0Zr2dHpTRVU)
+
+`$ brain-balance`
+[![asciicast](https://asciinema.org/a/r783lDBn7kjgy31ouT4O81fuE.png)](https://asciinema.org/a/r783lDBn7kjgy31ouT4O81fuE)
   
