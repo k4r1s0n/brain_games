@@ -2,6 +2,7 @@ import makeGame from '..';
 import getRandomNum from '../utils';
 
 const gameDescription = 'What is the result of the expression?';
+
 const game = () => {
   const firstNum = getRandomNum(1, 100);
   const secondNum = getRandomNum(1, 100);
@@ -24,5 +25,7 @@ const game = () => {
   }
   return { question, correctAnswer };
 };
+
 const calcGame = () => makeGame(game, gameDescription);
+
 export default calcGame;

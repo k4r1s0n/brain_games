@@ -20,7 +20,7 @@ const balance = (num) => {
 
 const game = () => {
   const question = getRandomNum(1, 10000);
-  const correctAnswer = balance(Number(question));
+  const correctAnswer = balance(question);
   return { question, correctAnswer };
 };
 

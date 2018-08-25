@@ -3,20 +3,20 @@ import getRandomNum from '../utils';
 
 const gameDescription = 'What number is missing in this progression?';
 
-const game = () => {
-  const first = 1;
-  const difference = getRandomNum(1, 5);
-  const progressionLength = 10;
-  const xLocation = getRandomNum(1, 10);
-  let correctAnswer;
-  let question = '';
+const progressionLength = 10;
 
+const game = () => {
+  const start = 1;
+  const difference = getRandomNum(1, 5); // difference beetween numbers
+  const missedNum = getRandomNum(1, 10); // missed number position
+  let question = '';
+  const correctAnswer = start + (missedNum * difference);
   for (let i = 1; i <= progressionLength; i += 1) {
-    if (xLocation === i) {
-      correctAnswer = String(first + (difference * i));
+    if (missedNum === i) {
+      String(correctAnswer);
       question += ' .. ';
     } else {
-      question += ` ${first + (difference * i)} `;
+      question += `${correctAnswer}`;
     }
   }
   return { question, correctAnswer };
