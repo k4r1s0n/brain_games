@@ -15,4 +15,7 @@
 
 `$ brain-balance`
 [![asciicast](https://asciinema.org/a/r783lDBn7kjgy31ouT4O81fuE.png)](https://asciinema.org/a/r783lDBn7kjgy31ouT4O81fuE)
+
+`$ brain-progression`
+[![asciicast](https://asciinema.org/a/ywR3rqkEjoWkDXVRDXed1KNFZ.png)](https://asciinema.org/a/ywR3rqkEjoWkDXVRDXed1KNFZ)
   
