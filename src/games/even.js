@@ -1,7 +1,7 @@
 import makeGame from '..';
 import getRandomNum from '../utils';
 
-const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
+const gameDescription = 'Answer "yes" if number even otherwise answer "no"';
 const isEven = num => num % 2 === 0;
 const game = () => {
   const question = getRandomNum(1, 100);
