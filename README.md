@@ -21,4 +21,3 @@
 
 `$ brain-prime`
 [![asciicast](https://asciinema.org/a/FbNQWce4zCf8jASVMwlB2kFb3.png)](https://asciinema.org/a/FbNQWce4zCf8jASVMwlB2kFb3)
-  
