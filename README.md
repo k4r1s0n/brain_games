@@ -18,4 +18,7 @@
 
 `$ brain-progression`
 [![asciicast](https://asciinema.org/a/ywR3rqkEjoWkDXVRDXed1KNFZ.png)](https://asciinema.org/a/ywR3rqkEjoWkDXVRDXed1KNFZ)
+
+`$ brain-prime`
+[![asciicast](https://asciinema.org/a/FbNQWce4zCf8jASVMwlB2kFb3.png)](https://asciinema.org/a/FbNQWce4zCf8jASVMwlB2kFb3)
   
