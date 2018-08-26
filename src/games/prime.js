@@ -3,17 +3,17 @@ import getRandomNum from '../utils';
 
 const gameDescription = 'Answer "yes" if number is prime';
 
-const prime = (num) => {
-  if (num <= 1) return 'no';
+const isPrime = (num) => {
+  if (num <= 1) return false;
   for (let i = 2; i < Math.sqrt(num); i += 1) {
-    if (num % i === 0) return 'no';
+    if (num % i === 0) return false;
   }
-  return 'yes';
+  return true;
 };
 
 const game = () => {
   const question = getRandomNum(0, 100);
-  const correctAnswer = prime(question);
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return { question, correctAnswer };
 };
 
