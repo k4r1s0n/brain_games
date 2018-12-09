@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/k4r1s0n/project-lvl1-s328.git"
+    "url": "git+https://github.com/k4r1s0n/brain_games.git"
   },
   "keywords": [
     "brain-games"
@@ -32,9 +32,9 @@
   "author": "k4r1s0n",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/k4r1s0n/project-lvl1-s328/issues"
+    "url": "https://github.com/k4r1s0n/brain_games/issues"
   },
-  "homepage": "https://github.com/k4r1s0n/project-lvl1-s328#readme",
+  "homepage": "https://github.com/k4r1s0n/brain_games#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
