@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/k4r1s0n/brain_games.svg?branch=master)](https://travis-ci.org/k4r1s0n/brain_games)
 
 ## App installation:
 `sudo npm install -g k4r1s0n-game`
